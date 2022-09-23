@@ -19,4 +19,4 @@ services:
       CORS_ORIGIN: ${CORS_ORIGIN}
       ADMIN_JWT_SECRET: ${ADMIN_JWT_SECRET:-ErhxCk10YqNCImwodl5Ml/Maqnw46oTyLjr+9Na4bjmJSLVWnCS90BJRAAkLsspj98caylAJgikBO9ZS0jEiOQ==}
     ports:
-      - '${PORT:-1337}:${PORT:-1337}'
+      - '${PORT:-8080}:${PORT:-8080}'
