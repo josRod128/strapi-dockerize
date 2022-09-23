@@ -35,7 +35,7 @@ COPY config/ config/
 RUN yarn build
 
 # Run on port 1337
-EXPOSE 1337
+EXPOSE 8080
 
 # We need to define the command to launch when we are going to run the image. We can use the keyword 'CMD' to do that.
 # The following command will execute "yarn start".
